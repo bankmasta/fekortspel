@@ -1,0 +1,36 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 700px;
+  }
+  
+  .button-container {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 25px 45px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    outline: skyblue;
+    color: #fff;
+    background-color: blueviolet;
+    border: thick;
+    border-radius: 25px;
+    
+  }
+  
+  .button:hover {
+    background-color: blue;
+  }
+  
+  .button:active {
+    background-color: black;
+    
+    transform: translateY(4px);
+  }
+  
+    

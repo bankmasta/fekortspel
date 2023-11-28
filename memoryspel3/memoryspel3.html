@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory-spel</title>
+    <link rel="stylesheet" href="css.css" />
+    <style>
+     
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+
+      .grad {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grad">
+      <h3>Resultat:</h3>
+      <div>
+        <label for="player1Name">Spelare 1:</label>
+        <input type="text" id="player1Name" /><br />
+        <label for="player2Name">Spelare 2:</label>
+        <input type="text" id="player2Name" /><br />
+      </div>
+      <h3 id="resultPlayer1">Spelare 1: <span id="scorePlayer1">0</span></h3>
+      <h3 id="resultPlayer2">Spelare 2: <span id="scorePlayer2">0</span></h3>
+      <p id="currentPlayer">Clicka "Starta spel" för att starta spelet</p>
+      <div class="grid"></div>
+
+      <div class="button-container">
+        <button id="startGameBtn" class="button">Starta spel</button>
+        <button id="restartBtn" class="button">Restart</button>
+      </div>
+      <p id="result"></p>
+    </div>
+
+  <script src="javascript.js"></script>
+  </body>
+</html>
